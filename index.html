@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYC</title>
+    <script type="module" src="out/script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<div id="base" class="fade-in">
+<section id="input_section">
+
+<input class="select" type="text" id="name" onfocus="this.value=''" value="Type a name"></input>
+
+<select class="select" id="race"> 
+    <option value="">-- Race --</option> 
+    <option value="caucasian">Caucasian</option> 
+    <option value="asian">Asian</option> 
+    <option value="african">African</option> 
+  </select> 
+
+  <select class="select" id="gender"> 
+    <option value="">-- Gender --</option> 
+    <option value="male">Male</option> 
+    <option value="female">Female</option> 
+  </select>
+
+
+  <select class="select" id="class"> 
+    <option value="">-- Class --</option> 
+    <option value="beginner">Beginner</option> 
+    <option value="amateur">Amateur</option> 
+    <option value="pro">Pro</option> 
+  </select>
+</section>
+
+<section id="result_section">
+    <h1 id="nameH1"></h1>
+    <img id="gender_div"></img>
+    <img id="class_img"></img>
+</section>
+  
+
+</div>
+
+
+</body>
+</html>
