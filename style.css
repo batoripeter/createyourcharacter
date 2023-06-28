@@ -12,6 +12,7 @@
 html {
     color-scheme: dark light;
     font-family: 'Press Start 2P', cursive;
+
 }
 
 body {
@@ -34,7 +35,6 @@ img, picture, svg, video {
 }
 /* --- Variables --- */
 
-
 #base {
     padding-top: 100px;
         display: flex;
@@ -46,6 +46,12 @@ img, picture, svg, video {
 
     }
 
+    .title {
+        color:white;
+        padding-top: 50px;
+        text-align: center;
+        margin: auto;
+    }
 
 #input_section{
     width: 500px;
@@ -70,6 +76,7 @@ img, picture, svg, video {
     justify-content: center;
      align-items: center;
      border-radius: 10px;
+
     }
 
 #nameH1{
@@ -79,13 +86,16 @@ font-size: 2em;
 
 
 #gender_div {
-    width: 300px;
-    height: 300px;
+   /* width: 300px;*/
+   /* height: 300px;*/
+    border-style: none;
+
 }
 
 #class_img {
     padding-top: 20px;
     height: 100px;
+
 }
 
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
